@@ -51,7 +51,7 @@ const AboutMe = () => {
           >
             <p className={styles["hero-text"]}>Innovate</p>
             <animated.img
-              src="/assets/img/my-photo.png"
+              src="/assets/img/my-photo.PNG"
               alt="photo"
               className={styles["my-photo"]}
               style={{

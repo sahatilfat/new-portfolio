@@ -131,8 +131,8 @@ const AboutMe = () => {
               >
                 Effort? Mediocrity? Never heard of them. The mission here is to
                 bend, twist, and warp your reality, presenting you with a
-                mind-boggling digital playground. Let‘s call it -- 'The Web on
-                Steroids'.
+                mind-boggling digital playground. Let&apos;s call it --
+                &apos;The Web on Steroids&apos;.
               </motion.p>
               <motion.p
                 className={styles["paragraph2"]}
@@ -142,9 +142,10 @@ const AboutMe = () => {
                 animate={control}
                 transition={{ duration: 0.5 }}
               >
-                Let's be honest, who isn’t tired of clichéd web designs? Your
-                users are craving for something different, something unique,
-                something immersive. Be Ready! They won't settle for less.
+                Let&apos;s be honest, who isn&apos;t tired of clichéd web
+                designs? Your users are craving for something different,
+                something unique, something immersive. Be Ready! They won&apos;t
+                settle for less.
               </motion.p>
             </div>
           </div>

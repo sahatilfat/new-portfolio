@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+
+  background: black;
+
+  .content-container {
+    max-width: 3000px;
+  }
+}

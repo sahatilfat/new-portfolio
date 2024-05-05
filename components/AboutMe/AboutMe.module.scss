@@ -1,0 +1,196 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: black;
+
+  .first-content {
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    // background: #ff7f51;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero-wrapper {
+      width: 1000px;
+      height: 530px;
+      box-sizing: border-box;
+      border: 10px solid #720026;
+      background: #ff9b54;
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .hero-text {
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4f000b;
+        font-size: 229px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      .my-photo {
+        width: 393px;
+        height: 539px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -51%);
+      }
+
+      .scribbles1 {
+        position: absolute;
+        top: -110px;
+        left: 0;
+      }
+
+      .scribbles2 {
+        position: absolute;
+        top: -120px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .scribbles3 {
+        position: absolute;
+        top: -110px;
+        right: 0;
+      }
+
+      .scribbles4 {
+        position: absolute;
+        top: 50%;
+        left: -100px;
+        transform: translateY(-50%);
+      }
+
+      .scribbles5 {
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  // .text-content {
+  //   width: 100%;
+  //   box-sizing: border-box;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  //   .text-wrapper {
+  //     width: 1000px;
+  //     box-sizing: border-box;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: flex-start;
+  //     justify-content: flex-start;
+
+  //     margin-top: 100px;
+  //     margin-bottom: 100px;
+
+  //     .title {
+  //       margin: 0;
+  //       padding: 0;
+  //       font-family: "Instrument Serif", serif;
+  //       font-weight: 400;
+  //       font-style: normal;
+
+  //       color: #ff7f51;
+  //       font-size: 48px;
+  //     }
+
+  //     .paragraph {
+  //       margin: 0;
+  //       padding: 0;
+  //       font-family: "Albert Sans", sans-serif;
+  //       font-weight: 400;
+  //       font-style: normal;
+
+  //       color: #ff7f51;
+  //       font-size: 20px;
+  //       width: 600px;
+
+  //       margin-top: 40px;
+  //     }
+  //   }
+  // }
+
+  .third-content {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+
+    .text-wrapper {
+      width: 1000px;
+      box-sizing: border-box;
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      .title {
+        margin: 0;
+        padding: 0;
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+
+        color: #ff7f51;
+        font-size: 48px;
+      }
+
+      .paragraph-wrapper {
+        width: 100%;
+        box-sizing: border;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+        margin-top: 40px;
+
+        .paragraph1 {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+
+          margin: 0;
+          padding: 0;
+          font-family: "Albert Sans", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+
+          color: #ff7f51;
+          font-size: 20px;
+        }
+        .paragraph2 {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+
+          margin: 0;
+          padding: 0;
+          font-family: "Albert Sans", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+
+          color: #ff7f51;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

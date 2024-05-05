@@ -1,0 +1,15 @@
+.container {
+  span {
+    display: inline-block;
+
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #ff7f51;
+    font-size: 151px;
+    animation: floatAnimation 3s infinite; // Tambahkan animasi floatAnimation
+
+    text-shadow: 10px 2px 4px red; //
+  }
+}

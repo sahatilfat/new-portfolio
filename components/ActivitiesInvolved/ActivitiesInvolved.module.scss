@@ -1,0 +1,176 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 200px;
+
+  .content-wrapper {
+    width: 1000px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    // border: 1px solid blue;
+
+    .title {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+
+      font-family: "Instrument Serif", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #ff7f51;
+      font-size: 105px;
+    }
+
+    .project-description-wrapper {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      margin-top: 100px;
+
+      .description-title {
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ff7f51;
+        font-size: 34px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      .description-paragraph {
+        width: 100%;
+        font-family: "Albert Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ff7f51;
+        font-size: 20px;
+
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+      }
+    }
+
+    .key-features-wrapper {
+      width: 100%;
+      box-sizing: border-box;
+
+      .description-title {
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ff7f51;
+        font-size: 34px;
+
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+      }
+
+      ol {
+        padding-left: 20px;
+        width: 100%;
+        li {
+          font-family: "Albert Sans", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          color: #ff7f51;
+          font-size: 20px;
+
+          margin: 0;
+          padding: 0;
+
+          span {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .technologies-used-wrapper {
+      width: 100%;
+      box-sizing: border-box;
+
+      .technologies-used-title {
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ff7f51;
+        font-size: 34px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      ul {
+        padding-left: 20px;
+        width: 100%;
+        li {
+          font-family: "Albert Sans", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          color: #ff7f51;
+          font-size: 20px;
+
+          margin: 0;
+          padding: 0;
+
+          span {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .list-project-wrapper {
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 100px;
+
+      .list-project-wrapper-title {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ff7f51;
+        font-size: 70px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      .card-list-project-wrapper {
+        width: 100%;
+        margin-top: 100px;
+        box-sizing: border-box;
+
+        .project {
+          width: 100%;
+          box-sizing: border-box;
+        }
+
+        .project:nth-child(2) {
+          margin-top: 200px;
+        }
+
+        .project:nth-child(3) {
+          margin-top: 200px;
+        }
+      }
+    }
+  }
+}

@@ -57,7 +57,12 @@ const HomeContent = () => {
         </animated.div>
         <p className={styles["text2"]}>I am a front-end web developer</p>
         <div className={styles["button-wrapper"]}>
-          <ButtonDefault onClick={() => {}} btnText="activities involved" />
+          <ButtonDefault
+            onClick={() => {
+              window.location.href = "/activities-involved";
+            }}
+            btnText="activities involved"
+          />
           <ButtonDefault
             onClick={() => {
               window.location.href = "/about";

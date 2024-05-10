@@ -1,0 +1,38 @@
+.glitch-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+}
+
+.glitch {
+  animation: glitch-animation 1s linear infinite;
+}
+
+@keyframes glitch-animation {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-5px, 5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.text {
+  font-size: 4rem;
+  text-align: center;
+}

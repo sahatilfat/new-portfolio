@@ -87,26 +87,6 @@ const AboutMe = () => {
             />
           </motion.div>
         </div>
-        {/* <div className={styles["text-content"]}>
-          <motion.div
-            className={styles["text-wrapper"]}
-            ref={ref}
-            variants={boxVariant}
-            initial="hidden"
-            animate={control}
-            transition={{ duration: 0.5 }}
-          >
-            <p className={styles["title"]}>
-              Who‘s the magician behind the curtains?
-            </p>
-            <p className={styles["paragraph"]}>
-              Simply said, it‘s the mythical creature known as a Web Developer,
-              specifically an extraordinary one, ready to push the buttons and
-              pull the levers to transform your run-of-the-mill website into a
-              starship of creative brilliance.
-            </p>
-          </motion.div>
-        </div> */}
         <MultiLayerParallax />
         <div className={styles["third-content"]}>
           <div className={styles["text-wrapper"]}>

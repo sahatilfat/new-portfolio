@@ -1,0 +1,44 @@
+.first-project {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+
+  .project-text-wrapper {
+    width: max-content;
+    margin-left: 50px;
+    &.secondary {
+      margin-left: 0px;
+    }
+    .title {
+      margin: 0;
+      padding: 0;
+
+      font-size: 34px;
+      font-family: "Instrument Serif", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #ff7f51;
+
+      width: 454px;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .paragraph {
+      width: 454px;
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+
+      font-family: "Albert Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #ff7f51;
+      font-size: 20px;
+
+      &.secondary {
+        width: 400px;
+      }
+    }
+  }
+}
